@@ -35,6 +35,7 @@ a{
     
 }
 .links>p{
+    padding: 7px;
     font-size: 20px;
     border: 2px solid #BB99DD;
     border-radius: 15px;
@@ -43,5 +44,5 @@ a{
     
 }
 .icons>a{
-    margin-left: 20px;
+    margin-left: 20px; 
 }
