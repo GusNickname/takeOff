@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+}
+
+h2, h3, p {
+    color: aliceblue;
+}
+
+fieldset {
+    background: rgb(2,0,36);
+background: linear-gradient(37deg, rgba(2,0,36,1) 0%, rgba(62,0,62,1) 63%, rgba(0,212,255,1) 100%);
+    width: 70%;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 15px;
+    background: none;
+    color: rgb(98, 83, 168);
+    cursor: pointer;
+    padding: 11px 38px;
+    border: 1px solid rgb(98, 83, 168);
+}
+
+button:hover {
+    color: rgb(0,212,255);
+    transition: 0.2s;
+    border: 1px solid rgb(0,212,255);
+}
