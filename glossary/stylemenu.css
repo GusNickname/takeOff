@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+
+body {
+    background-image: url(https://github.com/gustavoGLM/takeOff/blob/main/glossary/files/space3.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-position: center fixed;
+    background-size: cover;
+    margin: 0px;
+}   
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.link1, .link2, .link3, .link4, .link5 {
+    background: none;
+    margin: 0px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.field1 {
+    border: 10px solid rgb (62, 0, 62);
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    line-height: 10px; 
+    padding-top: 100px ;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.field2 {
+    background-color: aliceblue;
+    margin: 0px;
+}
+
+
+
