@@ -8,32 +8,12 @@ body {
     margin: 0px;
 }   
 
-h1 {
-    border: 10px solid rgb (62, 0, 62);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-}
-
 .list {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 150px;
-}
-
-.field1 {
-    font-weight: bolder;
-    margin: 0px;
-    font-family: 'Signika Negative', sans-serif;
-}
-
-.field2 {
-    background-color: aliceblue;
-    margin: 0px;
 }
 
 .link1, .link2, .link3, .link4, .link5 {
@@ -43,4 +23,24 @@ h1 {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.field1 {
+    border: 10px solid rgb (62, 0, 62);
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    line-height: 10px; 
+    padding-top: 100px ;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.field2 {
+    background-color: aliceblue;
+    margin: 0px;
+}
+
+
 
